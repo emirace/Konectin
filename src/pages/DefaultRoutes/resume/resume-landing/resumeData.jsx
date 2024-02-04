@@ -10,8 +10,8 @@ export const SliderData = [
     button: "Build resume now",
     title: (
       <>
-        Create <font className="text-secondary-600">eye-catching resume</font>{" "}
-        that gets you the job.
+        Create <font className="">eye-catching resume</font> that gets you the
+        job.
       </>
     ),
     type: "Resume Builder",
@@ -20,8 +20,7 @@ export const SliderData = [
   {
     title: (
       <>
-        <font className="text-secondary-600">Designed specifically</font> for
-        you
+        <font className="">Designed specifically</font> for you
       </>
     ),
     type: "Resume Templates",
@@ -30,8 +29,7 @@ export const SliderData = [
   {
     title: (
       <>
-        Follow <font className="text-secondary-600">useful tips</font> from
-        industry experts
+        Follow <font className="">useful tips</font> from industry experts
       </>
     ),
     type: "Resume Examples",

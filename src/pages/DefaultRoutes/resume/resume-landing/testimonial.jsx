@@ -41,7 +41,7 @@ function TestimonialSection({ data }) {
         </div>
         <small className="w-3/4 mt-3 text-neutral-200">
           Contact our{" "}
-          <Link className="text-secondary-600 underline" to="/">
+          <Link className="" to="/">
             Customer Supports
           </Link>{" "}
           if you have any question(s) or encounter any issue. We are always

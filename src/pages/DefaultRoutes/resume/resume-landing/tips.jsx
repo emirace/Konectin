@@ -9,6 +9,7 @@ import InfiniteLooper from "../../../../components/infiniteScroller";
 import "./index.css";
 import { slideIn, textVariantUp } from "../../../../utils/motion";
 import SectionWrapper from "../../../../components/animation/sectionWrapper";
+import { Link } from "react-router-dom";
 
 function TipSection() {
   return (
@@ -74,8 +75,7 @@ function TipSection() {
             variants={textVariantUp()}
             className="text-2xl font-semibold mb-2 md:text-3xl md:leading-relaxed"
           >
-            Follow <font className="text-secondary-600">useful tips</font> from
-            industry experts around the globe
+            Follow Useful Tips From Industry Experts Around The Globe
           </motion.h1>
           <motion.p
             variants={textVariantUp(0.4)}
@@ -86,7 +86,12 @@ function TipSection() {
             career.
           </motion.p>
           <motion.div variants={textVariantUp(0.8)} className="w-fit">
-            <ResumeButton />
+            <Link
+              to="/resume/options"
+              className="self-start px-6 py-2 bg-white flex gap-2 items-center justify-center text-primary-500 border-primary-500 border rounded-sm hover:bg-primary-500 hover:text-white"
+            >
+              My Email Address
+            </Link>
           </motion.div>
         </div>
       </motion.div>

@@ -35,7 +35,7 @@ export function ResumeButton() {
       to="/resume/options"
       className="self-start px-6 py-2 bg-white flex gap-2 items-center justify-center text-primary-500 border-primary-500 border rounded-sm hover:bg-primary-500 hover:text-white"
     >
-      Build resume now
+      Create A Resume Now
     </Link>
   );
 }

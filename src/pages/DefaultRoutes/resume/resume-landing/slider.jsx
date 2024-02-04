@@ -27,7 +27,7 @@ function SliderSection({ data }) {
               onClick={() => setTemplate(index)}
               className={`${
                 currentTemplate === index
-                  ? "text-primary-400"
+                  ? "text-primary-500"
                   : "text-neutral-300"
               } w-[60%] cursor-pointer flex flex-col gap-1
               `}
@@ -41,11 +41,11 @@ function SliderSection({ data }) {
                 {template.type}
               </h4>
               <small
-                className={
-                  currentTemplate === index
-                    ? "small w-[120px] sm:w-[150px]"
-                    : "small w-[90px] sm:w-[120px]"
-                }
+              // className={
+              //   currentTemplate === index
+              //     ? "small w-[120px] sm:w-[150px]"
+              //     : "small w-[90px] sm:w-[120px]"
+              // }
               >
                 {template.title}
               </small>
